@@ -1,0 +1,10 @@
+#main-layout {
+    width: 60em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.gridster li {
+    background-color: cadetblue;
+    list-style-type: none;
+}

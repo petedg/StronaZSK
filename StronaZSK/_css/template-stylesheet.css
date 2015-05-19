@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+header {
+    width: 60em;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+#header-logo * {
+    display: inline-block;
+    color: darkblue;    
+    vertical-align: middle;
+}
+
+#header-logo h1 {
+    font-size: 1.5em;
+}
+
+#header-logo a {
+    text-decoration: none;
+}
+
+#header-social {
+    float: right;
+    padding-top: 2em;
+}
+
+#header-social a{
+    padding-right: 1em;    
+}
+
+nav {
+    margin-top: 1.5em;
+    //background-color: #384958;
+    background-color: darkcyan;
+    border-radius: 30%;
+}
+
+/* przydatne do ustawienia szerokoœci
+.main-layout {
+    width: 60em;
+    margin: auto;    
+}*/
+
+footer {
+    height: 22em;    
+    background-color: darkcyan;    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+#footer-area {
+    width: 60em;
+    color: lightgrey;
+    margin: auto;    
+    padding-top: 1em;
+}
+
+#footer-data {
+    padding-bottom: 1em;
+    border-bottom: 0.2em dashed white;
+}
+
+.footer-column {
+    width: 19.5em;     
+    display: inline-block;
+}
+
+#footer-links {
+    padding-top: 1em;       
+    text-align: center;
+}
+
+#footer-links p {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#footer-copyright {
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,25 @@
+﻿body {
+    width: 60em;
+    margin: auto;  
+}
+
+#intro {
+    background-color: lightgray;
+    /*border-radius: 20%;*/
+    margin-top: 2em;
+    padding: 2em;
+    color: black;
+}
+
+#intro * {
+    
+}
+
+#content-second a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+#content-second a:hover{
+    text-decoration: underline;
+}

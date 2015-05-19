@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A84FFA6-9031-4C34-8A88-EAB6C2F8237B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StronaZSK</RootNamespace>
+    <AssemblyName>StronaZSK</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\workers.html" />
+    <Content Include="galleries\gallery.aspx" />
+    <Content Include="galleries\gallery_navigation.aspx" />
+    <Content Include="galleries\photos.html" />
+    <Content Include="index.html" />
+    <Content Include="podypl\podyplo.html" />
+    <Content Include="Web.config" />
+    <Content Include="_css\bootstrap.css" />
+    <Content Include="_css\gallery-navigation-stylesheet.css" />
+    <Content Include="_css\gallery-stylesheet.css" />
+    <Content Include="_css\index-stylesheet.css" />
+    <Content Include="_css\plugins\colored-dropdown-menu-styles.css" />
+    <Content Include="_css\plugins\fancybox\blank.gif" />
+    <Content Include="_css\plugins\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="_css\plugins\fancybox\fancybox_loading.gif" />
+    <Content Include="_css\plugins\fancybox\fancybox_overlay.png" />
+    <Content Include="_css\plugins\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="_css\plugins\fancybox\fancybox_sprite.png" />
+    <Content Include="_css\plugins\fancybox\helpers\fancybox_buttons.png" />
+    <Content Include="_css\plugins\fancybox\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="_css\plugins\fancybox\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="_css\plugins\fancybox\helpers\jquery.fancybox-media.js" />
+    <Content Include="_css\plugins\fancybox\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="_css\plugins\fancybox\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="_css\plugins\fancybox\jquery.fancybox.css" />
+    <Content Include="_css\plugins\fancybox\jquery.fancybox.js" />
+    <Content Include="_css\plugins\jquery.bxslider.css" />
+    <Content Include="_css\plugins\jquery.gridster.css" />
+    <Content Include="_css\plugins\jquery.gridster.min.css" />
+    <Content Include="_css\podyplo-stylesheet.css" />
+    <Content Include="_css\template-stylesheet.css" />
+    <Content Include="_css\workers-stylesheet.css" />
+    <Content Include="_img\bio_logo.png" />
+    <Content Include="_img\bio_logo_c.png" />
+    <Content Include="_img\cisco_logo.png" />
+    <Content Include="_img\cisco_logo_c.png" />
+    <Content Include="_img\facebook_icon.jpg" />
+    <Content Include="_img\facebook_icon_c.jpg" />
+    <Content Include="_img\logo.png" />
+    <Content Include="_img\mitconf_logo.png" />
+    <Content Include="_img\mitconf_logo_c.png" />
+    <Content Include="_img\moodle_logo.png" />
+    <Content Include="_img\moodle_logo_c.png" />
+    <Content Include="_img\upc_logo.png" />
+    <Content Include="_img\upc_logo_c.png" />
+    <Content Include="_img\wydzial.png" />
+    <Content Include="_img\youtube_icon.png" />
+    <Content Include="_img\youtube_icon_c.png" />
+    <Content Include="_js\index-script.js" />
+    <Content Include="_js\jquery-1.11.2.min.js" />
+    <Content Include="_js\plugins\colored-dropdown-menu-script.js" />
+    <Content Include="_js\plugins\jquery.bxslider.min.js" />
+    <Content Include="_js\plugins\jquery.fancybox.pack.js" />
+    <Content Include="_js\plugins\jquery.gridster.js" />
+    <Content Include="_js\plugins\jquery.gridster.min.js" />
+    <Content Include="_js\template-script.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="galleries\gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galleries\gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galleries\gallery_navigation.aspx.cs">
+      <DependentUpon>gallery_navigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galleries\gallery_navigation.aspx.designer.cs">
+      <DependentUpon>gallery_navigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galleries\List.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57007/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
